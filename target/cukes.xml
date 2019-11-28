@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.437093">
+    <testcase classname="Application Login" name="Home Page default login" time="0.425523">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters username  and password.....................................passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page default login page enter username and password" time="0.006415">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters username "Srikanth" and password "Tangirala"...............passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page default login page enter username and password" time="0.002674">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters fills in form details......................................passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page default login page enter username and password" time="0.000608">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters Para name User1 and pass Pass1.............................passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page default login page enter username and password 2" time="0.000461">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters Para name User2 and pass Pass2.............................passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page default login page enter username and password 3" time="0.000706">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters Para name User3 and pass Pass3.............................passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page default login page enter username and password 4" time="0.000706">
+        <system-out>
+            <![CDATA[Given user is on loading page...............................................passed
+When user enters Para name User4 and pass Pass4.............................passed
+Then Home page is populated.................................................passed
+And cards are displayed.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

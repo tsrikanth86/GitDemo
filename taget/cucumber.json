@@ -1,0 +1,552 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 635200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValiation()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Home Page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 120200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 519934000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters username  and password",
+            "match": {
+              "location": "stepDefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Home Page default login page enter username and password",
+        "description": "",
+        "id": "application-login;home-page-default-login-page-enter-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5687100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters username \"Srikanth\" and password \"Tangirala\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Srikanth",
+                  "offset": 22
+                },
+                {
+                  "val": "Tangirala",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefination.user_enters_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 73600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValiation()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Home Page default login page enter username and password",
+        "description": "",
+        "id": "application-login;home-page-default-login-page-enter-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 339000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1518200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters fills in form details",
+            "match": {
+              "location": "stepDefination.user_enters_fills_in_form_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "srikanth",
+                  "Tangirala",
+                  "srikanth.tangirala@gmail.com",
+                  "India",
+                  "9966001237"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Home Page default login page enter username and password",
+        "description": "",
+        "id": "application-login;home-page-default-login-page-enter-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 93400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters Para name User1 and pass Pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "1",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefination.user_enters_para_name_and_pass(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Home Page default login page enter username and password",
+        "description": "",
+        "id": "application-login;home-page-default-login-page-enter-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters Para name User2 and pass Pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 26
+                },
+                {
+                  "val": "2",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefination.user_enters_para_name_and_pass(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Home Page default login page enter username and password",
+        "description": "",
+        "id": "application-login;home-page-default-login-page-enter-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters Para name User3 and pass Pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 26
+                },
+                {
+                  "val": "3",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefination.user_enters_para_name_and_pass(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Home Page default login page enter username and password",
+        "description": "",
+        "id": "application-login;home-page-default-login-page-enter-username-and-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on loading page",
+            "match": {
+              "location": "stepDefination.user_is_on_loading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters Para name User4 and pass Pass4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 26
+                },
+                {
+                  "val": "4",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefination.user_enters_para_name_and_pass(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefination.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "\r\n//Background:\r\n//Given Validate the Browser\r\n//When Browser is triggered\r\n//Then Check if the browser is started",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
